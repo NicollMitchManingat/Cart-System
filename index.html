@@ -1,21 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Simpleng Cart System</title>
     <link rel="stylesheet" href="src/output.css">
 </head>
-<body>
-    <h1 class = "text-3xl text-cyan-900 text-center m-10">SIMPLENG CART SYSTEM</h1>
 
-    <div class = "flex justify-center gap-4">
-        <section class = "border-4">
-            <p class = "m-5">Products</p>
+<body class="bodysha">
+    <h1 class="pangalan">
+        SIMPLENG CART SYSTEM
+    </h1>
+
+    <main class="mainkasi">
+        <section class="s1">
+            <article class="a1">
+                <img src="photos/store.png" alt="logo" class="rounded-xl h-10 w-12">
+                <p class="text-xl md:text-2xl font-semibold text-[#A06EC4]">Products</p>
+            </article>
+
+            <article class="a2">
+                <div class="productcard">
+                    <p class="productcardp">Pampapogi</p>
+                    <button class="btn">Add to Cart</button>
+                </div>
+                <div class="productcard">
+                    <p class="productcardp">Pampalaki</p>
+                    <button class="btn">Add to Cart</button>
+                </div>
+                <div class="productcard">
+                    <p class="productcardp">Pampatigas</p>
+                    <button class="btn">Add to Cart</button>
+                </div>
+                <div class="productcard">
+                    <p class="productcardp">Pampasaya</p>
+                    <button class="btn">Add to Cart</button>
+                </div>
+                <div class="productcard">
+                    <p class="productcardp">Pampasarap</p>
+                    <button class="btn">Add to Cart</button>
+                </div>
+                <div class="productcard">
+                    <p class="productcardp">Pampaganda</p>
+                    <button class="btn">Add to Cart</button>
+                </div>
+                <div class="productcard">
+                    <p class="productcardp">Pampapayat</p>
+                    <button class="btn">Add to Cart</button>
+                </div>
+                <div class="productcard">
+                    <p class="productcardp">Pampataba</p>
+                    <button class="btn">Add to Cart</button>
+                </div>
+            </article>
+
         </section>
-        <section class = "border-4">
-            <p class = "m-5">Cart Items</p>
+
+        <section class="border-4 border-[#A06EC4] rounded-2xl bg-white shadow-lg p-5 w-full lg:w-1/3">
+            <article class = "a1">
+                <img src="photos/cart.png" alt="cartlogo" class="rounded-xl h-8 w-11">
+                <p class="text-xl md:text-2xl font-semibold text-[#A06EC4]">Cart</p>
+            </article>
+            
+            <article>
+                <p class="text-start text-gray-700 font-medium">Items:</p>
+                <div class="mt-2 text-sm text-gray-600 italic">No items added yet.</div>
+            </article>
         </section>
-    </div>
+    </main>
 </body>
+
 </html>

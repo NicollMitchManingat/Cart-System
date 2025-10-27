@@ -1,1 +1,69 @@
 @import "tailwindcss";
+
+.primaryc {
+  @apply bg-[#EBE0F5];
+}
+
+/* .secondaryc {
+  @apply bg-[#CBA9EF];
+}
+
+.thirdc {
+  @apply bg-[#A06EC4];
+}
+
+.fourthc {
+  @apply bg-[#F8B5D2];
+}
+
+.fifthc {
+  @apply bg-[#E378A8];
+} */
+
+.bodysha {
+  @apply primaryc min-h-screen flex flex-col items-center;
+}
+
+.pangalan {
+  @apply text-3xl md:text-4xl text-[#134E4A] text-center my-8 font-bold tracking-wide;
+}
+
+.mainkasi {
+  @apply flex flex-col lg:flex-row justify-center items-start gap-8 w-full max-w-6xl px-4;
+}
+
+.s1 {
+  @apply border-4 border-[#A06EC4] rounded-2xl bg-white shadow-lg p-5 w-full lg:w-2/3;
+}
+
+.a1 {
+  @apply flex justify-center items-center gap-2 mb-5;
+}
+
+.a2 {
+  @apply grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6 justify-items-center;
+}
+
+.productcardp {
+  @apply text-center font-medium text-[#6B21A8];
+}
+
+.productcard {
+  @apply border-2 border-[#A06EC4] rounded-2xl p-4 flex flex-col items-center justify-center 
+         bg-[#F9F5FF] shadow-sm
+         w-40 h-32 text-sm
+         sm:w-44 sm:h-34 sm:text-base
+         md:w-42 md:h-34
+         lg:w-36 lg:h-32
+         xl:w-38 xl:h-32
+         transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-md;
+}
+
+.btn {
+  @apply bg-[#F8B5D2] text-[#4A044E] font-semibold px-3 py-2 mt-3 rounded-lg text-xs
+         hover:bg-[#E378A8] transition duration-200 cursor-pointer;
+}
+
+.s2 {
+  @apply border-4 border-[#A06EC4] rounded-2xl bg-white shadow-lg p-5 w-full lg:w-1/3;
+}
