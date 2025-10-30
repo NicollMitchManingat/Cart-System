@@ -1,10 +1,10 @@
 @import "tailwindcss";
 
-.primaryc {
+/* .primaryc {
   @apply bg-[#EBE0F5];
-}
+} 
 
-/* .secondaryc {
+   .secondaryc {
   @apply bg-[#CBA9EF];
 }
 
@@ -18,14 +18,14 @@
 
 .fifthc {
   @apply bg-[#E378A8];
-} */
+}  */
 
 .bodysha {
-  @apply primaryc min-h-screen flex flex-col items-center;
+  @apply bg-[#EBE0F5] min-h-screen flex flex-col items-center;
 }
 
 .pangalan {
-  @apply text-3xl md:text-4xl text-[#134E4A] text-center my-8 font-bold tracking-wide;
+  @apply text-3xl md:text-4xl text-[#E378A8] text-center my-8 font-bold tracking-wide;
 }
 
 .mainkasi {
@@ -66,4 +66,24 @@
 
 .s2 {
   @apply border-4 border-[#A06EC4] rounded-2xl bg-white shadow-lg p-5 w-full lg:w-1/3;
+}
+
+.clearbtn {
+  @apply bg-[#F8B5D2] text-[#4A044E] px-3 py-2 rounded-lg text-xs font-semibold hover:bg-[#E378A8] transition;
+}
+
+.chikoutbtn {
+  @apply bg-[#A06EC4] text-white px-3 py-2 rounded-lg text-xs font-semibold hover:bg-[#7E3EB0] transition;
+}
+
+.p1 {
+  @apply text-xl md:text-2xl font-semibold text-[#A06EC4];
+}
+
+.p2 {
+  @apply text-start text-gray-700 font-medium;
+}
+
+.ulist {
+  @apply mt-3 text-gray-700 text-sm space-y-2;
 }
